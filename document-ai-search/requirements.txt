@@ -1,0 +1,21 @@
+# Document AI Search - Dependencies
+
+# PDF text extraction
+pypdf>=5.0.0
+
+# Excel file reading
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Legacy Word .doc support (Windows: pywin32, Linux/Mac: LibreOffice)
+pywin32>=306; sys_platform == "win32"
+
+# OCR for images (optional - requires Tesseract-OCR to be installed separately)
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Optional: for better PDF text extraction
+# pdfplumber>=0.10.0
+
+# Optional: for Excel data processing
+# pandas>=2.0.0
